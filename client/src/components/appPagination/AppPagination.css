@@ -1,0 +1,7 @@
+.app-pagination .page-item a {
+    color: #212529;
+}
+.app-pagination .page-item.active .page-link {
+    background-color: #212529;
+    border-color: #212529;
+}

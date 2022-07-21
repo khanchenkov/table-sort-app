@@ -1,0 +1,12 @@
+.app-panel {
+    background-color: #212529;
+    padding: 25px;
+    margin-bottom: 10px;
+    color: white;
+}
+.app-panel select {
+    margin-bottom: 10px;
+}
+.app-panel select, .app-panel input {
+    width: 50%;
+}

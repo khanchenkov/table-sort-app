@@ -1,0 +1,7 @@
+.app-table {
+    text-align: center;
+}
+.table-control {
+    cursor: pointer;
+    user-select: none;
+}

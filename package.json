@@ -1,0 +1,22 @@
+{
+  "name": "welbex-app",
+  "version": "1.0.0",
+  "description": "Welbex task",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "nodemon": "nodemon index.js",
+    "dev": "concurrently \"nodemon index.js\" \"npm run start --prefix client\""
+  },
+  "keywords": [],
+  "author": "khanchenkov",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "pg": "^8.7.1"
+  },
+  "devDependencies": {
+    "concurrently": "^6.5.1",
+    "nodemon": "^2.0.15"
+  }
+}
